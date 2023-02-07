@@ -11,7 +11,7 @@
   var y = document.querySelectorAll("input")[3].value;
     if(x == "1234567890987654321234567890987654321" && y == "Yo"){
     var win = window.open("");
-      win.document.write("<iframe src='/games'></iframe><title>Fairfax | Portal</title>" + '<link rel="shortcut icon" href="https://assets.clever.com/oauth/1559db05d0d7e2e7eab67a730dd389fac029f6af/favicon.ico?1">');
+      win.document.write("<head>" + '<link rel="shortcut icon" href="https://assets.clever.com/oauth/1559db05d0d7e2e7eab67a730dd389fac029f6af/favicon.ico?1">' + "</head><body><iframe src='/games'></iframe><title>Fairfax | Portal</title></body>");
     }
   }
 </script>
